@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <interface id="1" language="java" name="com.invoice.billing.UserBasedDiscountStrategy" project="invoice-system" 
+    file="/invoice-system/src/main/java/com/invoice/billing/UserBasedDiscountStrategy.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="271" x="1605" y="265"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" language="java" name="com.invoice.billing.AffiliateDiscountStrategy" project="invoice-system" 
+    file="/invoice-system/src/main/java/com/invoice/billing/AffiliateDiscountStrategy.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="242" x="1323" y="109"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.invoice.billing.BillPayable" project="invoice-system" 
+    file="/invoice-system/src/main/java/com/invoice/billing/BillPayable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="558" x="725" y="109"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.invoice.billing.BillingItems" project="invoice-system" 
+    file="/invoice-system/src/main/java/com/invoice/billing/BillingItems.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="376" width="328" x="596" y="541"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.invoice.billing.User" project="invoice-system" 
+    file="/invoice-system/src/main/java/com/invoice/billing/User.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="316" width="245" x="964" y="541"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.invoice.billing.App" project="invoice-system" 
+    file="/invoice-system/src/main/java/com/invoice/billing/App.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="116" width="152" x="249" y="109"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.invoice.billing.CustomerDiscountStrategy" project="invoice-system" 
+    file="/invoice-system/src/main/java/com/invoice/billing/CustomerDiscountStrategy.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="261" x="1605" y="109"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" language="java" name="com.invoice.billing.AmountBasedDiscountStrategy" project="invoice-system" 
+    file="/invoice-system/src/main/java/com/invoice/billing/AmountBasedDiscountStrategy.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="299" x="441" y="265"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="9" language="java" name="com.invoice.billing.CentBillDiscountStrategy" project="invoice-system" 
+    file="/invoice-system/src/main/java/com/invoice/billing/CentBillDiscountStrategy.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="244" x="441" y="109"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.invoice.billing.Bill" project="invoice-system" 
+    file="/invoice-system/src/main/java/com/invoice/billing/Bill.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="236" width="291" x="780" y="265"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="11" language="java" name="com.invoice.billing.ItemType" project="invoice-system" 
+    file="/invoice-system/src/main/java/com/invoice/billing/ItemType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="136" width="190" x="596" y="957"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="12" language="java" name="com.invoice.billing.EmployeeDiscountStrategy" project="invoice-system" 
+    file="/invoice-system/src/main/java/com/invoice/billing/EmployeeDiscountStrategy.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="264" x="1906" y="109"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="13" language="java" name="com.invoice.billing.UserType" project="invoice-system" 
+    file="/invoice-system/src/main/java/com/invoice/billing/UserType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="176" width="190" x="964" y="957"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="14" language="java" name="com.invoice.billing.OthersDiscountStrategy" project="invoice-system" 
+    file="/invoice-system/src/main/java/com/invoice/billing/OthersDiscountStrategy.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="234" x="2210" y="109"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="15">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="16" name="userBasedDiscountStrategy"/>      
+      <multiplicity id="17" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="18">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="19" name="type"/>      
+      <multiplicity id="20" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="21">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <realization id="22">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <association id="23">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="24" name="billingItems"/>      
+      <multiplicity id="25" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="26">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="27" name="amountBasedDiscountStrategy"/>      
+      <multiplicity id="28" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="29">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <association id="30">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="31" name="type"/>      
+      <multiplicity id="32" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="33">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <association id="34">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="35" name="user"/>      
+      <multiplicity id="36" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="37">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <association id="38">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="39" name="bill"/>      
+      <multiplicity id="40" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
