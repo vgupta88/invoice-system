@@ -3,6 +3,10 @@
 
 This project is an OOPS architected module part of a technical assessment to calculate discounts for an invoice considering few business rules.
 
+## Restructured using Object oriented approach
+![GitHub Logo](/ClassDiagram.png)
+Format: ![Alt Text](url)
+
 ## Requirement
   - JDK 1.8
   - Apache Maven 3.x
