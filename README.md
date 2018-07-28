@@ -18,7 +18,6 @@ Format: ![Alt Text](url)
 
 ## Code & Tests Coverage
 The project comes with JaCoCo plugin to use with Sonar integration that enables it to cover code as well as tests via a valid SonarQube installation. 
-Test coverage is broken currently. Fix in progress
 
 ### Setting it up
 
@@ -36,6 +35,7 @@ $ mvn clean install -Dsonar.host.url=<url>
 ```
 
 ## TODO 
+- Change input method to commandline
 - Improve coverage
 - Validations
-- Database support for user management (so we don't need to pass user object in request)
+- Database support
