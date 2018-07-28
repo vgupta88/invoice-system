@@ -10,6 +10,7 @@ public class BillingItems {
 		this.type=type;
 		this.quantity=qty;
 		this.price=price;
+		this.name=name;
 	}
 	
 	private String id;

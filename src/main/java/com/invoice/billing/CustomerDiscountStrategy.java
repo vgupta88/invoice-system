@@ -7,7 +7,6 @@ import java.util.List;
 public class CustomerDiscountStrategy implements UserBasedDiscountStrategy {
 
 	public void calculate(Bill bill) {
-		System.out.println("Running Customer Strategy");
 		BigDecimal groceriesTotalBill = BigDecimal.ZERO;
 		BigDecimal othersTotalBill = BigDecimal.ZERO;
 		List<BillingItems> itemsList = bill.getBillingItems();
@@ -16,7 +15,7 @@ public class CustomerDiscountStrategy implements UserBasedDiscountStrategy {
 				groceriesTotalBill=groceriesTotalBill.add(item.getPrice());
 			else if(item.getType().equals(ItemType.OTHERS))
 				othersTotalBill=othersTotalBill.add(item.getPrice());
-		};
+		}
 
 		if(LocalDate.now().minusYears(2).isAfter(bill.getUser().getActiveSince())) {			
 			BigDecimal totalBill=groceriesTotalBill.add(othersTotalBill);
@@ -25,7 +24,6 @@ public class CustomerDiscountStrategy implements UserBasedDiscountStrategy {
 		else {
 			bill.setNetPayable(groceriesTotalBill.add(othersTotalBill));
 		}
-		System.out.println("Discounted: "+bill.getNetPayable());
 
 	}
 }

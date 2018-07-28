@@ -15,7 +15,7 @@ public class AffiliateDiscountStrategy implements UserBasedDiscountStrategy {
 				groceriesTotalBill=groceriesTotalBill.add(item.getPrice());
 			else if(item.getType().equals(ItemType.OTHERS))
 				othersTotalBill=othersTotalBill.add(item.getPrice());
-		};
+		}
 		BigDecimal totalBill=groceriesTotalBill.add(othersTotalBill);
 		bill.setNetPayable(totalBill.subtract(othersTotalBill.multiply(BigDecimal.valueOf(10).divide(new BigDecimal(100)))));
 	

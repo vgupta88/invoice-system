@@ -21,14 +21,23 @@ public class App {
 		itemsList.add(new BillingItems("Soap", ItemType.OTHERS, 2, new BigDecimal(10)));
 		itemsList.add(new BillingItems("Tomatoes", ItemType.GROCERIES, 6, new BigDecimal(8)));
 		bill.setBillingItems(itemsList);
+		
 		switch(bill.getUser().getType()) {
 		case EMPLOYEE:
-			BillPayable payable=new BillPayable(bill, new CentBillDiscountStrategy(), new EmployeeDiscountStrategy());
-			payable.calculate();
-			System.out.println("Bill Payable: "+bill.getNetPayable().toString());
+			BillPayable payableEmp=new BillPayable(bill, new CentBillDiscountStrategy(), new EmployeeDiscountStrategy());
+			payableEmp.calculate();
 			break;
-		default:
-			System.out.println("TODO");
+		case CUSTOMER:
+			BillPayable payableCust=new BillPayable(bill, new CentBillDiscountStrategy(), new CustomerDiscountStrategy());
+			payableCust.calculate();
+			break;
+		case AFFILIATE:
+			BillPayable payableAff=new BillPayable(bill, new CentBillDiscountStrategy(), new AffiliateDiscountStrategy());
+			payableAff.calculate();
+			break;
+		case OTHERS:
+			BillPayable payableOth=new BillPayable(bill, new CentBillDiscountStrategy(), new OthersDiscountStrategy());
+			payableOth.calculate();
 			break;
 		}
 

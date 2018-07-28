@@ -15,7 +15,7 @@ public class EmployeeDiscountStrategy implements UserBasedDiscountStrategy {
 				groceriesTotalBill=groceriesTotalBill.add(item.getPrice());
 			else if(item.getType().compareTo(ItemType.OTHERS)==0)
 				othersTotalBill=othersTotalBill.add(item.getPrice());
-		};
+		}
 		BigDecimal totalBill=groceriesTotalBill.add(othersTotalBill);
 		bill.setNetPayable(totalBill.subtract(othersTotalBill.multiply(BigDecimal.valueOf(30).divide(new BigDecimal(100)))));
 	
